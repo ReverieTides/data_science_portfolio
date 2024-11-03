@@ -1,0 +1,17 @@
+---
+extends: default
+
+rules:
+  line-length: disable
+
+yaml-files:
+  - "*.yaml"
+  - "*.yml"
+  - "*.yml.jinja"
+  - "*.yaml.jinja"
+  - ".yamllint"
+
+ignore: |
+  **/legacy/*
+  .git/
+  .copier-answers.yml
